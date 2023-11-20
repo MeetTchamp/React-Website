@@ -1,9 +1,15 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 
 #nav{
     background-color: black;
     color: blanchedalmond;
     text-align: center;
-    height: 50px;
+    height: 60px;
 }
 
 .body{
@@ -15,4 +21,30 @@
 .footer{
     background-color: chartreuse;
     color: brown;
+}
+
+.li{
+    color: white;
+    padding: 10px;
+    
+}
+
+.li:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul{
+    list-style-type: none;
+    display: flex;
+}
+
+#little-champ{
+    margin-left: 20px;
 }
